@@ -1,8 +1,6 @@
 name: NPM Prioritize Scan
 
-on:
-  pull_request:
-    branches: [ release* ]
+on: workflow_dispatch
 
 jobs:
   WhiteSource-Prioritize:
